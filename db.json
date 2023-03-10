@@ -1,0 +1,33 @@
+{
+    "items": [
+      {
+        "name": "Prayer for Our Fragile World",
+        "image": "/images/green01.png",
+        "desc":
+          "is a sculpture that serves as an appeal to humanity to protect our planet. It is not limited to any particular gender, status, religion, or country, as we are all part of a fragile world. The sculpture features a stylized planet made of thick polished glass, on the verge of which the names of all countries are engraved in their native languages, as well as glass-based symbols representing the major religions of the world. The figure praying in a universal pose has no discernible sex or face, representing all of humanity. Their brain is depicted in constant circulation, and their prayer is illuminated with a noble, fascinating light of faith and hope. With their hands stretched upwards, they are asking for grace for all.",
+        "price": 9110,
+        "id": "001"
+      },
+      {
+        "name": "Ice & Fire",
+        "image": "/images/red01.png",
+        "desc": "This sculpture is titled Ice & Fire and is approximately 65cm tall, 35cm wide, and 30cm deep. It was created using a unique technique where pieces of different types of glass are glued together to create the sculpture's height and volume. The sculpture features a nude female figure with smooth curves and is colored in a palette that corresponds to the colors of ice and fire, which are combined in the work. The artwork symbolizes the emotional nature of a woman, with her coldness and fire represented through the use of the two elemental forces.",
+        "price": 3150,
+        "id": "002"
+      },
+      {
+        "name": "The flower of war",
+        "image": "/images/yellow01.png",
+        "desc": "This sculpture is a stunning piece of art created using the Tiffany technique. It features a beautiful stained glass flower predominantly in red color. At the base of the flower, there are old cartridges from the First World War, from which the flower seems to grow out of. The sculpture also includes built-in LED lights, enhancing the beauty of the flower. This work of art is not only visually impressive, but it also carries a deeper message of transformation, growth, and hope arising from the devastation of war.",
+        "price": 2200,
+        "id": "003"
+      },
+      {
+        "name": "Big sister",
+        "image": "/images/blue01.png",
+        "desc": "This sculpture is called Big-sister and measures approximately 105cm in height, 85cm in width, and 25cm in depth. It was created using an original technique where pieces  of different types of glass are glued together to create the sculpture's height and volume. The artwork features a curved triangle shape with a ceramic relief of delicate lips inscribed within a circle at its center. The lips appear as if they are ready to kiss you. The sculpture is meant to be an ironic and sarcastic response to the concept of Big Brother watching over us, as Big-sister represents a figure who loves and cares for us. Additionally, the sculpture is equipped with built-in LED lights.",
+        "price": 5230,
+        "id": "004"
+      }
+    ]
+  }
