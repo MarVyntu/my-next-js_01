@@ -1,15 +1,15 @@
 //
 
 import Image from "next/image";
-import styles from "@/styles/Burgers.module.css";
+import styles from "@/styles/Works.module.css";
 
 export const getStaticPaths = async () => {
   const res = await fetch("http://localhost:5000/items");
   const data = await res.json();
 
-  const paths = data.map((burger) => {
+  const paths = data.map((work) => {
     return {
-      params: { id: burger.id },
+      params: { id: work.id },
     };
   });
 
@@ -27,18 +27,18 @@ export const getStaticProps = async (context) => {
   const data = await res.json();
 
   return {
-    props: { burger: data },
+    props: { work: data },
   };
 };
 
-const Details = ({ burger }) => {
+const Details = ({ work }) => {
   return (
     <div className={styles.singleItem}>
-      <h1>{burger.name}</h1>
+      <h1>{work.name}</h1>
       <div className={styles.imageContainer}>
         <Image
-          src={`${burger.image}`}
-          alt={`${burger.name}`}
+          src={`${work.image}`}
+          alt={`${work.name}`}
           width="150"
           height="150"
           Layout="resposive"
@@ -46,11 +46,9 @@ const Details = ({ burger }) => {
         />
       </div>
       <div>
-        <p>{burger.desc}</p>
+        <p>{work.desc}</p>
       </div>
     </div>
   );
 };
 export default Details;
-
-// console.log("details burger >>>", burger);

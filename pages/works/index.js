@@ -1,6 +1,6 @@
 //
 import Link from "next/link";
-import styles from "@/styles/Burgers.module.css";
+import styles from "@/styles/Works.module.css";
 import Image from "next/image";
 
 export const getStaticProps = async () => {
@@ -8,25 +8,25 @@ export const getStaticProps = async () => {
   const data = await res.json();
 
   return {
-    props: { burgers: data },
+    props: { works: data },
   };
 };
 
-const Burgers = ({ burgers }) => {
+const Works = ({ works }) => {
   return (
     <div>
       <h1>Some of my works</h1>
-      {burgers.map((burger) => {
+      {works.map((work) => {
         return (
           <Link
-            href={`/burgers/${burger.id} `}
-            key={burger.id}
-            className={styles.burgerCard}
+            href={`/works/${work.id} `}
+            key={work.id}
+            className={styles.workCard}
           >
             <div className={styles.imageContainer}>
               <Image
-                src={`${burger.image}`}
-                alt={`${burger.name}`}
+                src={`${work.image}`}
+                alt={`${work.name}`}
                 width="150"
                 height="150"
                 Layout="resposive"
@@ -34,8 +34,8 @@ const Burgers = ({ burgers }) => {
               />
             </div>
             <div>
-              <h3>{burger.name}</h3>
-              <p>{burger.desc}</p>
+              <h3>{work.name}</h3>
+              <p>{work.desc}</p>
             </div>
           </Link>
         );
@@ -43,4 +43,4 @@ const Burgers = ({ burgers }) => {
     </div>
   );
 };
-export default Burgers;
+export default Works;

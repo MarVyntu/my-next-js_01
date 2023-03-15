@@ -1,7 +1,7 @@
 .imageContainer {
   max-width: 150px;
 }
-.burgerCard {
+.workCard {
   color: #2e2e2e;
   display: grid;
   grid-template-columns: 150px 1fr;
@@ -14,7 +14,7 @@
   max-width: 950px;
   box-shadow: rgba(0, 0, 0, 0.043) 0px 0px 5px 3px;
 }
-.burgerCard h3 {
+.workCard h3 {
   margin-top: 0;
 }
 .singleItem {
